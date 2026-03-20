@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Denis Poduzov — software developer for .NET, industrial automation, telematics, and embedded systems. Custom vehicle tracking on GpsGate, open NFC hardware, and full-stack delivery.">
+  <title>Denis Poduzov — Software developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <nav aria-label="Primary">
+      <a class="brand" href="#">Denis Poduzov</a>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Software for industry, vehicles, and devices</h1>
+      <p class="hero-lead">
+        I’m a C# / .NET developer with 15+ years across web, desktop, SCADA, MES, telematics, and embedded work.
+        I build reliable integrations, operator tools, and field-ready software—from plant floor to fleet.
+      </p>
+      <div class="hero-meta">
+        <span>Burlington, ON, Canada</span>
+        <span>Open to consulting &amp; collaborations</span>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:poduzov@gmail.com?subject=Project%20inquiry">Discuss a project</a>
+        <a class="btn btn-secondary" href="resume.pdf" download>Download resume</a>
+        <a class="btn btn-secondary" href="https://github.com/poduzov" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <section id="services" aria-labelledby="services-title">
+      <h2 id="services-title">Services <span class="tag">/ what I offer</span></h2>
+      <div class="card">
+        <h3>Custom vehicle tracking &amp; fleet software · GpsGate</h3>
+        <p>
+          I design and implement tailored telematics solutions on top of the
+          <a href="https://www.gpsgate.com/" rel="noopener">GpsGate</a> platform—maps, reporting, device integration,
+          and workflows aligned with how your fleet actually operates. Useful if you need more than an off-the-shelf portal:
+          custom business rules, integrations with your stack, or a focused operator UI.
+        </p>
+        <p>If you’re evaluating GpsGate or already run it and need extensions, migrations, or hardening—let’s talk.</p>
+        <p class="meta"><a href="mailto:poduzov@gmail.com?subject=GpsGate%20%2F%20fleet%20tracking">Email about fleet &amp; GpsGate work →</a></p>
+      </div>
+      <div class="card">
+        <h3>Industrial software &amp; integration</h3>
+        <p>
+          MES-style web apps, SCADA-adjacent data acquisition, PLC/HMI-adjacent tooling, and desktop utilities for manufacturing
+          and test (C#, .NET, Angular, SQL). REST, MQTT, serial, CAN—where the protocol meets the database, I’ve usually been there.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills <span class="tag">/ snapshot</span></h2>
+      <div class="skills-grid">
+        <div class="skill-pill">
+          <strong>Backend &amp; desktop</strong>
+          <span>C#, .NET Core, ASP.NET Core, WPF, WinForms, REST APIs</span>
+        </div>
+        <div class="skill-pill">
+          <strong>Frontend</strong>
+          <span>Angular, TypeScript, NgRx, RxJS, module federation</span>
+        </div>
+        <div class="skill-pill">
+          <strong>Data &amp; auth</strong>
+          <span>EF Core, SQL Server, PostgreSQL, MySQL, JWT, OAuth2, SSO</span>
+        </div>
+        <div class="skill-pill">
+          <strong>Cloud &amp; delivery</strong>
+          <span>Azure, Docker, Azure DevOps, Git, GitLab</span>
+        </div>
+        <div class="skill-pill">
+          <strong>Industrial automation</strong>
+          <span>PLC, HMI, SCADA, MES, Siemens, Allen-Bradley, Beckhoff</span>
+        </div>
+        <div class="skill-pill">
+          <strong>Embedded &amp; edge</strong>
+          <span>C++, ARM, Raspberry Pi, ESP32, Arduino, I²C, MQTT, TCP/IP</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects <span class="tag">/ highlighted</span></h2>
+      <div class="projects">
+        <article class="card project-card">
+          <h3>Open NFC reader <span class="badge">In development</span></h3>
+          <p>
+            A compact, open-source NFC reader I’m actively developing—focused on approachable hardware and clean firmware/software
+            boundaries for makers and integrators. More documentation and design files will land as the design stabilizes.
+          </p>
+          <div class="links">
+            <a href="mailto:poduzov@gmail.com?subject=NFC%20reader%20project">Ask for early details</a>
+          </div>
+        </article>
+        <article class="card project-card">
+          <h3>PI4J-I2C-LCD</h3>
+          <p>Java / Pi4J driver support for I²C LCD modules on Raspberry Pi—handy for lightweight HMI-style readouts.</p>
+          <div class="links">
+            <a href="https://github.com/poduzov/PI4J-I2C-LCD" rel="noopener">Repository</a>
+          </div>
+        </article>
+        <article class="card project-card">
+          <h3>HX711-Pi4j</h3>
+          <p>HX711 load-cell interface for Raspberry Pi using Pi4J—weight sensing in Java on the edge.</p>
+          <div class="links">
+            <a href="https://github.com/poduzov/HX711-Pi4j" rel="noopener">Repository</a>
+          </div>
+        </article>
+        <article class="card project-card">
+          <h3>Arduino Software I²C LCD</h3>
+          <p>Drive an LCD via bit-banged I²C when you’re pin-constrained or need a secondary bus.</p>
+          <div class="links">
+            <a href="https://github.com/poduzov/Arduio-SoftwareI2C-LCD" rel="noopener">Repository</a>
+          </div>
+        </article>
+        <article class="card project-card">
+          <h3>TIRF-Labs</h3>
+          <p>Laser control tooling for microscopy applications—Java-based product-side work.</p>
+          <div class="links">
+            <a href="https://github.com/poduzov/TIRF-Labs" rel="noopener">Repository</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Recent experience <span class="tag">/ selected</span></h2>
+      <div class="card">
+        <ul class="experience-list">
+          <li>
+            <span class="when">2025</span>
+            <span class="role">Senior Software Developer</span>
+            <span class="co"> · MAK CG — MES / manufacturing web stack (.NET Core, Angular, SQL Server, EF)</span>
+          </li>
+          <li>
+            <span class="when">2025</span>
+            <span class="role">Senior Software Developer</span>
+            <span class="co"> · Geotab — Device manufacturing test &amp; tracking (ASP.NET Core, Angular, PostgreSQL, BigQuery)</span>
+          </li>
+          <li>
+            <span class="when">2020–2025</span>
+            <span class="role">Solutions Architect</span>
+            <span class="co"> · Roshel — Vehicle tracking, remote control, manufacturing tools (SignalR, MQTT, Azure, PLC integration)</span>
+          </li>
+          <li>
+            <span class="when">2018–2020</span>
+            <span class="role">Senior SCADA Engineer</span>
+            <span class="co"> · Ulteig — Solar, wind, O&amp;G, water; Ignition, iFix, WinCC, PLC/HMI</span>
+          </li>
+        </ul>
+        <p style="margin: 1rem 0 0; font-size: 0.95rem; color: var(--text-muted);">
+          Earlier roles include industrial automation, metals, solar MES, and simulation—see <a href="resume.pdf">resume.pdf</a> for the full timeline.
+        </p>
+      </div>
+      <div class="card" style="margin-top: 1rem;">
+        <h3 style="margin-top: 0;">Education</h3>
+        <p style="margin: 0; color: var(--text-muted);">
+          M.Sc., Electrical Engineering — Ural Federal University. Specialization in electronic control systems.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact <span class="tag">/ let’s talk</span></h2>
+      <div class="card">
+        <div class="contact-row">
+          <a href="mailto:poduzov@gmail.com">poduzov@gmail.com</a>
+          <a href="https://www.linkedin.com/in/poduzov/" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/poduzov" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Denis Poduzov. Built as a static site for fast hosting.</p>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
